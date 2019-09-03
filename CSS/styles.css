@@ -1,0 +1,63 @@
+/*alter style here while progressing */
+.web-style {
+  font-family: Indie Flower, cursive;
+  background-color: #222831;
+  color: white;
+}
+
+/*change background color for hr*/
+hr {
+  background-color: #222831;
+  border-style: dotted none none;
+  height: 0px;
+  border-width: 5px;
+  width: 65%;
+  color: antiquewhite;
+}
+
+/*change the color of links to be visible on black background*/
+a:visited {
+  color: antiquewhite;
+}
+
+a:link {
+  color: #87cefa;
+}
+
+/*main image that will never change */
+.image-style {
+  width: 300px;
+  border-width: 3px;
+  border-style: groove;
+  border-color: white;
+  border-radius: 50%;
+}
+
+/*change the cell spacing of table*/
+td {
+  padding: 10px;
+}
+
+table {
+  border-spacing: 5px;
+}
+
+/* Social Media Icon Styles and Imports */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
