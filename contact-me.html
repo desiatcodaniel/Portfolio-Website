@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--Links of imports to be used-->
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+<!-- Social Media Icon Library-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--List of styles that will improve throughout the CSS course-->
+<style>
+  /*alter style here while progressing */
+  .web-style {
+    font-family: Indie Flower, cursive;
+    background-color: #181818;
+    color: white;
+  }
+
+  /*change the color of links to be visible on black background*/
+  a:visited {
+    color: antiquewhite;
+  }
+
+  a:link {
+    color: #87cefa;
+  }
+
+  /*main image that will never change */
+  .image-style {
+    width: 450px;
+    border-width: 3px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 50%;
+  }
+
+  /* Social Media Icon Styles and Imports */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /* used for social media spacing*/
+  table {
+    border-spacing: 50px 0px;
+  }
+</style>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Daniel's Blog Site - Contact Info</title>
+  <!--Alignment-->
+  <center>
+    <strong>
+      <h1>Daniel Ryan Desiatco</h1>
+      <h3>Blogger for Desiatco's
+        <em>Journey to Infinite Learning</em></h3>
+
+      <h2 class="web-style">This will be my portfolio page</h2>
+      <h2 class="web-style">This will be editted constantly as I progress</h2>
+
+      <!--This is github link-->
+      <p>
+        <a href="https://github.com/desiatcodaniel/daysOfCode100" target="_blank">
+          <em>Follow my #100DaysOfCode journey here!</em>
+        </a>
+      </p>
+      <!--line without shade and with size elements -->
+      <hr size="3" noshade>
+
+      <!-- END center -->
+  </center>
+
+</head>
+
+<body class="web-style">
+  <center>
+
+    <!-- Table for contact and portfolio-->
+    <table style="padding: 30px;">
+      <thead>
+        <th>Email:</th>
+        <th>Github:</th>
+      </thead>
+      <tbody>
+
+        <tr>
+
+          <td>
+            <!-- Email Link -->
+            <a href="mailto: desiatcodaniel@gmail.com" target="_blank">desiatcodaniel@gmail.com</a>
+          </td>
+
+          <td>
+            <!-- Github link : override size-->
+            <a href="https://github.com/desiatcodaniel" target="blank">
+              <img style="width: 75px;" class="fa" src="C:\Users\Daniel\Documents\Udemy Web Developer Bootcamp\HTML Personal Site\Octocat.png" alt="Web Development Journey">
+            </a>
+          </td>
+
+        </tr>
+
+      </tbody>
+    </table>
+
+    <!--line without shade and with size elements -->
+    <hr size="3" noshade>
+
+    <!-- Table for Social Media-->
+    <table>
+      <thead>
+        <th>Twitter</th>
+        <th>Facebook</th>
+      </thead>
+      <tbody>
+        <tr style="border-spacing: 90px 0px;">
+          <td>
+            <!--Twitter Link-->
+            <a href="https://twitter.com/DanielDesiatco" class="fa fa-twitter" target="_blank"></a>
+          </td>
+
+          <td>
+            <!--Facebook Link-->
+            <a href="https://www.facebook.com/danieldesiatco" class="fa fa-facebook" target="_blank"></a>
+          </td>
+
+        </tr>
+      </tbody>
+    </table>
+    <br>
+
+    <!--line without shade and with size elements -->
+    <hr size="3" noshade>
+
+    <a href="index.html">Go back to main page</a>
+
+    </strong>
+  </center>
+</body>
+
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--Links of imports to be used-->
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+
+<!--List of styles that will improve throughout the CSS course-->
+<style>
+  /*alter style here while progressing */
+  .web-style {
+    font-family: Indie Flower, cursive;
+    background-color: #181818;
+    color: white;
+  }
+
+  /*change the color of links to be visible on black background*/
+  a:visited {
+    color: antiquewhite;
+  }
+
+  a:link {
+    color: #87cefa;
+  }
+
+  /*main image that will never change */
+  .image-style {
+    width: 300px;
+    border-width: 3px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 50%;
+  }
+
+  /*change the cell spacing of table*/
+  td {
+    padding: 10px;
+  }
+
+  table {
+    border-spacing: 5px 0px;
+  }
+</style>
+
+<html lang="en" dir="ltr">
+
+<!-- header for all pages-->
+
+<head>
+  <meta charset="utf-8">
+  <title>Daniel's Blog Site</title>
+  <!--Alignment-->
+  <center>
+    <h1>Daniel Ryan Desiatco</h1>
+    <h3>Blogger for Desiatco's
+      <em>Journey to Infinite Learning</em></h3>
+
+    <h2 class="web-style">This will be my portfolio page</h2>
+    <h2 class="web-style">This will be editted constantly as I progress</h2>
+
+    <!--This is github link-->
+    <p>
+      <a href="https://github.com/desiatcodaniel/daysOfCode100" target="_blank">
+        <em>Follow my #100DaysOfCode journey here!</em>
+      </a>
+    </p>
+    <!--line without shade and with size elements -->
+    <hr size="3" noshade>
+
+    <!-- END center -->
+  </center>
+
+</head>
+
+<!--Main and body of the website-->
+
+<body class="web-style">
+
+  <!-- Table to list all goals, with picture on the left-->
+  <table>
+    <tr>
+      <td>
+        <!--This is a filler photo to practice what I learned-->
+        <img class="image-style" src="C:\Users\Daniel\Documents\Udemy Web Developer Bootcamp\HTML Personal Site\BestCouple.jpg" alt="Web Development Journey">
+      </td>
+      <td>
+        <!--List of goals-->
+        <p>The list of things I want to accomplish throughout this journey:</p>
+        <ul>
+          <li>
+            Effectively learn HTML and CSS.
+          </li>
+          <li>
+            Learn and master JavaScript to at least get in the field.
+          </li>
+          <li>
+            Get used to the habit of trying to learn and practice everyday.
+          </li>
+        </ul>
+
+        <!--Sources used/to be used with links-->
+        <p>My main sources of learning:</p>
+        <ol>
+          <li>
+            <a href="https://eloquentjavascript.net/" target="_blank">
+              Eloquent JavaScript: A Modern Introduction to Programming by: Marjin Haverbeke
+            </a>
+          </li>
+          <li>
+            <a href="https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_2?keywords=html+%26+css&qid=1567055245&s=gateway&sr=8-2" target="_blank">
+              HTML & CSS: Design and Build Websites by: Jon Duckett
+            </a>
+          </li>
+          <li>
+            <a href="https://www.freecodecamp.org" target="_blank">
+              FreeCodeCamp
+            </a>
+          <li>
+            <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank">
+              The Complete 2019 Web Development Bootcamp
+            </a>
+          </li>
+          </li>
+        </ol>
+      </td>
+    </tr>
+  </table>
+
+
+  <!--Table for work experience-->
+  <!--line without shade and with size elements -->
+  <hr size="3" noshade>
+  <h2>Work Experience:</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <td>
+        2018-Present:
+      </td>
+      <td>
+        Poliquin & DeGrave LLP -<em> Accounts Receivable Clerk</em>
+      </td>
+    </tbody>
+  </table>
+
+  <!-- Table for Skills-->
+  <!--line without shade and with size elements -->
+  <hr size="3" noshade>
+
+  <h2>Skills:</h2>
+
+  <!-- Table -> 2 tables inside -> each table has 2 rows with 2 table cells each(name and score) -->
+  <table>
+    <!--FIRST table-->
+    <td>
+      <table>
+
+        <tr>
+          <td>
+            <strong>HTML </strong>
+          </td>
+          <td>
+            &#9733;&#9733;&#9733;&#9733;&#9734;
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong>CSS </strong>
+          </td>
+          <td>
+            &#9733;&#9733;&#9733;&#9734;&#9734;
+          </td>
+        </tr>
+
+      </table>
+    </td>
+
+    <!--SECOND table-->
+    <td>
+      <table>
+
+        <tr>
+          <td>
+            <strong>JavaScript</strong>
+          </td>
+          <td>
+            &#9733;&#9733;&#9733;&#9734;&#9734;
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <strong>React</strong>
+          </td>
+          <td>
+            &#9734;&#9734;&#9734;&#9734;&#9734;
+          </td>
+        </tr>
+
+      </table>
+  </table>
+  </td>
+
+  <!--line without shade and with size elements -->
+  <hr size="3" noshade>
+  <!--Create a contact me page link-->
+
+  <a href="contact-me.html">Contact Me</a>
+</body>
+
+</html>
