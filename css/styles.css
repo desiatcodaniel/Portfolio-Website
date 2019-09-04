@@ -1,18 +1,17 @@
 /*alter style here while progressing */
-.web-style {
-  font-family: Indie Flower, cursive;
-  background-color: #222831;
-  color: white;
-}
-
+/************TAG SELECTOR*************/
 /*change background color for hr*/
 hr {
   background-color: #222831;
   border-style: dotted none none;
-  height: 0px;
   border-width: 5px;
-  width: 65%;
   color: antiquewhite;
+  height: 0px;
+  width: 65%;
+}
+
+hr:hover {
+border-style: dashed none none;
 }
 
 /*change the color of links to be visible on black background*/
@@ -24,15 +23,6 @@ a:link {
   color: #87cefa;
 }
 
-/*main image that will never change */
-.image-style {
-  width: 300px;
-  border-width: 3px;
-  border-style: groove;
-  border-color: white;
-  border-radius: 50%;
-}
-
 /*change the cell spacing of table*/
 td {
   padding: 10px;
@@ -42,14 +32,15 @@ table {
   border-spacing: 5px;
 }
 
+/************CLASS SELECTOR*************/
 /* Social Media Icon Styles and Imports */
 .fa {
-  padding: 20px;
+  border-radius: 50%;
   font-size: 30px;
-  width: 30px;
+  padding: 20px;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
+  width: 30px;
 }
 
 .fa-facebook {
@@ -60,4 +51,20 @@ table {
 .fa-twitter {
   background: #55ACEE;
   color: white;
+}
+
+/*main image that will never change */
+.image-style {
+  border-width: 3px;
+  border-style: groove;
+  border-color: white;
+  border-radius: 50%;
+  width: 300px;
+}
+
+/*Main style for the web page*/
+.web-style {
+  background-color: #222831;
+  color: white;
+  font-family: Indie Flower, cursive;
 }
