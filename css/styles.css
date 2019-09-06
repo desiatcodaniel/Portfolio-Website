@@ -1,18 +1,6 @@
 /*alter style here while progressing */
-/************TAG SELECTOR*************/
-/*change background color for hr*/
-hr {
-  background-color: #222831;
-  border-style: dotted none none;
-  border-width: 5px;
-  color: antiquewhite;
-  height: 0px;
-  width: 65%;
-}
-
-hr:hover {
-border-style: dashed none none;
-}
+/*IMPORTS*/
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
 
 /*change the color of links to be visible on black background*/
 a:visited {
@@ -20,8 +8,25 @@ a:visited {
 }
 
 a:link {
-  color: #87cefa;
+  color: #313131;
 }
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+/************TAG SELECTOR*************/
+div {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*change background color for hr*/
+hr:hover {
+  border-style: dashed none none;
+}
+
+
 
 /*change the cell spacing of table*/
 td {
@@ -62,9 +67,29 @@ table {
   width: 300px;
 }
 
+/*Style for top of the page */
+.top-style {
+  background-image: url("TopBG.jpg");
+  color: #fff6da;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 750px;
+}
+
 /*Main style for the web page*/
 .web-style {
-  background-color: #222831;
-  color: white;
-  font-family: Indie Flower, cursive;
+    background-image: url("BG.jpg");
+      background-size: cover;
+  color: #414141;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.work-style {
+  background-image: url("WorkBG.jpg");
+  background-size: 80% 80%;
+  margin-left: 0px;
+  margin-right: 0px;
 }
