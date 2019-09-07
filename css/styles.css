@@ -15,6 +15,7 @@ body, html {
   margin: 0;
   padding: 0;
 }
+
 /************TAG SELECTOR*************/
 div {
   margin-left: 10%;
@@ -26,8 +27,6 @@ hr:hover {
   border-style: dashed none none;
 }
 
-
-
 /*change the cell spacing of table*/
 td {
   padding: 10px;
@@ -38,6 +37,13 @@ table {
 }
 
 /************CLASS SELECTOR*************/
+/* Contact Me Style to make it always visible*/
+.contact-style {
+  position: fixed;
+  top: 100px;
+  right: 100px;
+}
+
 /* Social Media Icon Styles and Imports */
 .fa {
   border-radius: 50%;
@@ -58,6 +64,7 @@ table {
   color: white;
 }
 
+/*Set style that the user always sees */
 /*main image that will never change */
 .image-style {
   border-width: 3px;
@@ -71,9 +78,7 @@ table {
 .top-style {
   background-image: url("TopBG.jpg");
   color: #fff6da;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
+  margin: auto 0 auto 0;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 750px;
@@ -81,15 +86,15 @@ table {
 
 /*Main style for the web page*/
 .web-style {
-    background-image: url("BG.jpg");
-      background-size: cover;
-  color: #414141;
+  background-image: url("BG.jpg");
+  background-size: cover;
+  color: #393B59;
   font-family: 'Kaushan Script', cursive;
 }
 
 .work-style {
   background-image: url("WorkBG.jpg");
-  background-size: 80% 80%;
+  background-size: contain;
   margin-left: 0px;
   margin-right: 0px;
 }
