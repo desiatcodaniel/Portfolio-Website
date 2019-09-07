@@ -4,7 +4,7 @@
 
 /*change the color of links to be visible on black background*/
 a:visited {
-  color: antiquewhite;
+  color: #6b778d;
 }
 
 a:link {
@@ -86,15 +86,14 @@ table {
 
 /*Main style for the web page*/
 .web-style {
+  background-blend-mode: color-dodge;
   background-image: url("BG.jpg");
   background-size: cover;
-  color: #393B59;
+  color: #211717;
   font-family: 'Kaushan Script', cursive;
 }
 
 .work-style {
-  background-image: url("WorkBG.jpg");
-  background-size: contain;
   margin-left: 0px;
   margin-right: 0px;
 }
