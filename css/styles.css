@@ -1,14 +1,14 @@
 /*alter style here while progressing */
 /*IMPORTS*/
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Monoton&display=swap');
 
 /*change the color of links to be visible on black background*/
 a:visited {
-  color: antiquewhite;
+  color: #323643;
 }
 
 a:link {
-  color: #313131;
+  color: #ffc97c;
 }
 
 body, html {
@@ -16,12 +16,18 @@ body, html {
   padding: 0;
 }
 
-/************TAG SELECTOR*************/
-div {
-  margin-left: 10%;
-  margin-right: 10%;
+h1 {
+  font-size: 375%;
+  margin: 0 10%;
+  width: 450px;
 }
 
+h3 {
+  padding: 0px;
+  margin: 0px;
+}
+
+/************TAG SELECTOR*************/
 /*change background color for hr*/
 hr:hover {
   border-style: dashed none none;
@@ -39,9 +45,18 @@ table {
 /************CLASS SELECTOR*************/
 /* Contact Me Style to make it always visible*/
 .contact-style {
+  color: #fff1c1;
   position: fixed;
-  top: 100px;
   right: 100px;
+  top: 100px;
+  /*Make texts more visible */
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* Set email margins */
+.email-style {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* Social Media Icon Styles and Imports */
@@ -57,6 +72,7 @@ table {
 .fa-facebook {
   background: #3B5998;
   color: white;
+  margin-top: 5px;
 }
 
 .fa-twitter {
@@ -64,36 +80,47 @@ table {
   color: white;
 }
 
-/*Set style that the user always sees */
+/*Make github icon align with the other social media links*/
+.github-style {
+  margin-top: 5px;
+  padding: 10px 0px 0px 0px;
+  width: 75px;
+}
+
 /*main image that will never change */
 .image-style {
   border-width: 3px;
   border-style: groove;
-  border-color: white;
+  border-color: #222831;
   border-radius: 50%;
   width: 300px;
 }
 
+/* Style of all parts of the website */
+.parts-style {
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+
 /*Style for top of the page */
 .top-style {
   background-image: url("TopBG.jpg");
-  color: #fff6da;
-  margin: auto 0 auto 0;
+  border-color: #222831;
+  border-style: ridge;
+  border-radius: 5%;
+  color: #fff1c1;
+  font-family: 'Monoton', cursive;
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 750px;
+  /*Make texts more visible */
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /*Main style for the web page*/
 .web-style {
-  background-blend-mode: color-dodge;
   background-image: url("BG.jpg");
   background-size: cover;
   color: #211717;
-  font-family: 'Kaushan Script', cursive;
-}
-
-.work-style {
-  margin-left: 0px;
-  margin-right: 0px;
+  font-family: 'Luckiest Guy', sans-serif;
 }
