@@ -17,12 +17,18 @@ body, html {
 }
 
 h1 {
-  font-size: 375%;
+  font-size: 2.5rem;
   margin: 0 10%;
   width: 450px;
 }
 
+h2 {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
 h3 {
+  font-size: 1.2rem;
   padding: 0px;
   margin: 0px;
 }
@@ -49,6 +55,7 @@ table {
   position: fixed;
   right: 100px;
   top: 100px;
+  margin-top: 25%;
   /*Make texts more visible */
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -100,6 +107,11 @@ table {
 .parts-style {
   margin-left: 10px;
   margin-right: 0px;
+}
+
+.social-style {
+  height: 100%;
+  width: 100%;
 }
 
 
